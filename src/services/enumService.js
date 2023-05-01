@@ -1,0 +1,22 @@
+const EnumService = {
+  HOME_PAGE_VIEW: 'HOME_PAGE_VIEW',
+  SIGNIN_VIEW: 'SIGNIN_VIEW',
+  SIGNUP_VIEW: 'SIGNUP_VIEW',
+  SIGNUP_VIEW_VERIFICATION: 'SIGNUP_VIEW_VERIFCATION',
+  FORGET_PASSWORD_VIEW: 'FORGET_PASSWORD_VIEW',
+  NETWORK_ERROR: 'NetworkError',
+  ERROR_USER_EXISTS: 'UsernameExistsException',
+  ERROR_LIMIT_EXCEEDED: 'LimitExceededException',
+  ERROR_CODE_MISMATCH: 'CodeMismatchException',
+  ERROR_INVALID_PASSWORD: 'InvalidPasswordException',
+  ERROR_SIGNUP_NOT_AUTHORIZED: 'NotAuthorizedException',
+  USER_NOT_CONFIRMED_ERROR: 'UserNotConfirmedException',
+  USER_NOT_FOUND_ERROR: 'UserNotFoundException',
+  INVALID_PARAMETER_EXCEPTION: 'InvalidParameterException',
+  NOT_AUTHORIZED_EXCEPTION: 'NotAuthorizedException',
+  ASK_EMAIL: 'ASK_EMAIL',
+  ASK_VERIFY_CODE: 'ASK_VERIFY_CODE',
+  ASK_NEW_PASSWORD: 'ASK_NEW_PASSWORD',
+};
+
+export default EnumService;

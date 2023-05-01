@@ -1,0 +1,25 @@
+.characterSlot .ant-badge-count {
+  right: 30%;
+  box-shadow: 0 0 0 1px rgba(218, 85, 79, 0.7);
+}
+.characterSlot .character {
+  width: 100%;
+  height: auto;
+  max-width: 15vw;
+}
+.characterSlot .pointer {
+  cursor: pointer;
+}
+.characterSlot .character.disconnected {
+  filter: grayscale(100%);
+}
+.characterSlot .playerSlot {
+  text-align: center;
+}
+.characterSlot .playerSlot .playerName {
+  margin-top: 20px;
+}
+.characterSlot .playerSlot h3 {
+  color: #727272;
+}
+/*# sourceMappingURL=characterSlot.css.map */

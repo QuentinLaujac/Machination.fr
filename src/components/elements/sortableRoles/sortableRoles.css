@@ -1,0 +1,11 @@
+.sortableRoles {
+  width: 100%;
+  text-align: center;
+}
+.sortableRoles .center {
+  text-align: center;
+}
+.sortableRoles .ant-row {
+  justify-content: center;
+}
+/*# sourceMappingURL=sortableRoles.css.map */

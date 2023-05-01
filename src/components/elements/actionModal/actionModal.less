@@ -1,0 +1,129 @@
+@import './../../../assets/less/colors.less';
+
+.actionModal {
+    width  : 75%;
+    z-index: 11111!important;
+
+    .titleQuestion {
+        .sender {
+            font-weight: 400;
+            color      : @grey;
+        }
+
+        .question {
+            font-weight: 500;
+            color      : @white;
+        }
+    }
+
+    .showCrimeElement {
+        width     : 100%;
+        text-align: center;
+
+        span {
+            color      : @red;
+            font-size  : 18px;
+            font-weight: 500;
+        }
+    }
+
+    .roleResult {
+        text-align: center;
+        width     : 100%;
+
+        .roleDiv{
+            width: 100%;
+            text-align: center;
+        }
+    }
+
+    .ant-btn .anticon {
+        transform       : translate(0%, 0%);
+        transform-origin: 100% 0%;
+    }
+
+    .ant-btn-primary {
+        color           : @white;
+        background-color: @grey;
+        border-color    : @grey;
+        text-shadow     : 0 -1px 0 rgba(0, 0, 0, 0.12);
+        box-shadow      : 0 2px 0 rgba(0, 0, 0, 0.045);
+    }
+
+    .rolePropositionRowSend {
+        text-align     : right;
+        justify-content: right;
+        width          : 100%;
+    }
+
+    .dividerRoleProposition {
+        margin       : 0;
+        margin-top: 35px;
+        margin-bottom: 20px;
+        width        : 100%;
+    }
+
+    .sendRolePropositionButton {
+        border-color    : @green;
+        background-color: @green;
+    }
+
+    .button {
+        width : auto;
+        margin: 5px;
+    }
+
+    .button:hover {
+        color           : @white;
+        background-color: @yellow;
+        border-color    : @yellow;
+    }
+
+    .yesyes {
+        border-color    : @green;
+        background-color: @green;
+    }
+
+    .yes {
+        border-color    : @green;
+        background-color: @green;
+    }
+
+    .nono {
+        border-color    : @red;
+        background-color: @red;
+    }
+
+    .no {
+        border-color    : @red;
+        background-color: @red;
+    }
+
+    .row {
+        display  : flex;
+        flex-flow: row wrap;
+        width    : 100%;
+    }
+}
+
+
+
+@media screen {
+    @media (max-width: 1200px) {
+        .actionModal {
+            width: 60%;
+        }
+    }
+
+    @media (max-width: 1023px) {
+        .actionModal {
+            width: 50%;
+        }
+    }
+
+    @media (max-width: 992px) {
+        .actionModal {
+            width: 30%;
+        }
+    }
+}

@@ -1,0 +1,94 @@
+@import './../../../assets/less/colors.less';
+
+
+.gameLobby {
+  background-color : @black;
+  height           : 100vh;
+  background-size  : 100% 100%;
+  background-repeat: no-repeat;
+  overflow         : hidden;
+
+  .paramGameMenu {
+    height          : 100vh;
+    width           : 100%;
+    background-color: #141414;
+    padding         : 20px;
+
+  }
+
+  .tabTitle {
+    font-size: 20px;
+  }
+
+  .NumberPlayerBeforeStart {
+    position        : absolute;
+    top             : 25px;
+    right           : 25px;
+    width           : 125px;
+    height          : 50px;
+    background-color: #141414;
+    box-shadow      : 0 3px 6px -4px rgba(0, 0, 0, 0.48), 0 6px 16px 0 rgba(0, 0, 0, 0.32), 0 9px 28px 8px rgba(0, 0, 0, 0.2);
+    padding         : 5px;
+    border-radius   : 40px;
+
+    .title {
+      font-size  : 15px;
+      margin-left: 10px;
+      font-weight: 500;
+      color      : rgba(234, 234, 234, 0.85);
+    }
+  }
+
+  .gameHomeButton {
+    position        : absolute;
+    top             : 25px;
+    left            : 25px;
+    width           : 120px;
+    height          : 43px;
+    background-color: #141414;
+    box-shadow      : 0 3px 6px -4px rgba(0, 0, 0, 0.48), 0 6px 16px 0 rgba(0, 0, 0, 0.32), 0 9px 28px 8px rgba(0, 0, 0, 0.2);
+    padding         : 5px;
+    border-radius   : 40px;
+    cursor          : pointer;
+
+    .title {
+      font-size  : 15px;
+      margin-left: 10px;
+      font-weight: 500;
+      color      : rgba(234, 234, 234, 0.85);
+    }
+
+    .ant-btn .anticon {
+      transform       : translate(0%, -10%);
+      transform-origin: 100% 0%;
+    }
+
+    .ant-btn-primary {
+      color           : @white;
+      background-color: @grey;
+      border-color    : @grey;
+      text-shadow     : 0 -1px 0 rgba(0, 0, 0, 0.12);
+      box-shadow      : 0 2px 0 rgba(0, 0, 0, 0.045);
+
+    }
+
+    &:hover {
+      .ant-btn-primary {
+        color           : @white;
+        background-color: @green;
+        border-color    : @green;
+      }
+    }
+  }
+
+  .ant-progress-circle.ant-progress-status-success .ant-progress-text {
+    color: @green;
+  }
+
+  .ant-progress-circle .ant-progress-text {
+    font-weight: 500;
+  }
+
+
+
+}

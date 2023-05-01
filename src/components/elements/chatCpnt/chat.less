@@ -1,0 +1,83 @@
+@import './../../../assets/less/colors.less';
+
+.chatComponent {
+
+    .ant-comment-inner {
+        padding: 5px 0;
+    }
+
+    .sendButton {
+        color           : @white;
+        background-color: @green;
+        border          : none;
+
+        &:hover {
+            background-color: lighten(@green, 10%);
+        }
+    }
+
+    .witnessAnswer {
+        box-shadow   : 0 3px 6px -4px rgba(0, 0, 0, 0.48), 0 6px 16px 0 rgba(0, 0, 0, 0.32), 0 9px 28px 8px rgba(0, 0, 0, 0.2);
+        display      : flex;
+        flex-flow    : row wrap;
+        width        : 94%;
+        padding      : 10px;
+        border-radius: 5px;
+        margin-left  : 3%;
+
+
+        .question {
+            color     : @white;
+            width     : 75%;
+            text-align: left;
+        }
+
+        .answer {
+            text-align : right;
+            width      : 25%;
+            font-weight: 500;
+        }
+
+        .actionModal_aswerWitnessYesYes {
+            color: @green;
+        }
+
+        .actionModal_aswerWitnessYes {
+            color: @green;
+        }
+
+        .actionModal_aswerWitnessYesNeitherNo {
+            color: @grey;
+        }
+
+        .actionModal_aswerWitnessDontKnow {
+            color: @grey;
+        }
+
+        .actionModal_aswerWitnessNo {
+            color: @red;
+        }
+
+        .actionModal_aswerWitnessNoNo {
+            color: @red;
+        }
+    }
+
+    .chatView {
+        position      : relative;
+        display       : flex;
+        flex-direction: column-reverse;
+        overflow-y    : auto;
+        height        : calc(100vh - 170px);
+    }
+
+    .systemMessage {
+        font-weight   : 500;
+        border-radius : 5px;
+        padding-left  : 10px;
+        padding-top   : 5px;
+        padding-bottom: 5px;
+        font-style    : italic;
+    }
+
+}

@@ -1,0 +1,58 @@
+{
+  "name": "machination-frontend",
+  "version": "1.0.0",
+  "description": "Jeu en ligne de détective, machination",
+  "private": true,
+  "dependencies": {
+    "@ant-design/icons": "^4.0.6",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "amazon-cognito-identity-js": "^4.2.1",
+    "antd": "^4.2.2",
+    "axios": "^0.19.2",
+    "i18next": "^19.4.4",
+    "i18next-xhr-backend": "^3.2.2",
+    "less": "^3.11.1",
+    "react": "^16.13.1",
+    "react-custom-scroll": "^4.2.0",
+    "react-custom-scrollbars": "^4.2.1",
+    "react-dom": "^16.13.1",
+    "react-drag-sortable": "^1.0.6",
+    "react-i18next": "^11.4.0",
+    "react-redux": "^7.2.0",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.4.1",
+    "react-sticky": "^6.0.3",
+    "react-typing-effect": "^2.0.3",
+    "redux": "^4.0.5",
+    "redux-thunk": "^2.3.0"
+  },
+  "scripts": {
+    "dev-start": "concurrently --kill-others \"less-watch-compiler --config less-watcher.config.json\" \"react-scripts start\"",
+    "less-watch": "less-watch-compiler --config less-watcher.config.json",
+    "start": "react-scripts start",
+    "build": "less-watch-compiler --config less-builder.config.json && react-scripts build",
+    "test": "react-scripts test"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "concurrently": "^5.2.0",
+    "less": "^3.11.1",
+    "less-watch-compiler": "^1.14.6"
+  }
+}

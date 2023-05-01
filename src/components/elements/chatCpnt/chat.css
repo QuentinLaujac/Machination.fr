@@ -1,0 +1,64 @@
+.chatComponent .ant-comment-inner {
+  padding: 5px 0;
+}
+.chatComponent .sendButton {
+  color: #eaeaea;
+  background-color: #4fc18a;
+  border: none;
+}
+.chatComponent .sendButton:hover {
+  background-color: #75cea3;
+}
+.chatComponent .witnessAnswer {
+  box-shadow: 0 3px 6px -4px rgba(0, 0, 0, 0.48), 0 6px 16px 0 rgba(0, 0, 0, 0.32), 0 9px 28px 8px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-flow: row wrap;
+  width: 94%;
+  padding: 10px;
+  border-radius: 5px;
+  margin-left: 3%;
+}
+.chatComponent .witnessAnswer .question {
+  color: #eaeaea;
+  width: 75%;
+  text-align: left;
+}
+.chatComponent .witnessAnswer .answer {
+  text-align: right;
+  width: 25%;
+  font-weight: 500;
+}
+.chatComponent .witnessAnswer .actionModal_aswerWitnessYesYes {
+  color: #4fc18a;
+}
+.chatComponent .witnessAnswer .actionModal_aswerWitnessYes {
+  color: #4fc18a;
+}
+.chatComponent .witnessAnswer .actionModal_aswerWitnessYesNeitherNo {
+  color: #727272;
+}
+.chatComponent .witnessAnswer .actionModal_aswerWitnessDontKnow {
+  color: #727272;
+}
+.chatComponent .witnessAnswer .actionModal_aswerWitnessNo {
+  color: rgba(218, 85, 79, 0.7);
+}
+.chatComponent .witnessAnswer .actionModal_aswerWitnessNoNo {
+  color: rgba(218, 85, 79, 0.7);
+}
+.chatComponent .chatView {
+  position: relative;
+  display: flex;
+  flex-direction: column-reverse;
+  overflow-y: auto;
+  height: calc(100vh - 170px);
+}
+.chatComponent .systemMessage {
+  font-weight: 500;
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-style: italic;
+}
+/*# sourceMappingURL=chat.css.map */

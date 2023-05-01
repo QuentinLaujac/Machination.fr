@@ -1,0 +1,110 @@
+@import './../../../assets/less/colors.less';
+
+
+.ant-message-notice {
+  width  : 75%;
+  top    : 10%;
+  z-index: 99999;
+}
+
+.ant-message-notice:first-child {
+  margin-top: 60px;
+}
+
+.gamePage {
+  background-color : @black;
+  height           : 100vh;
+  background-size  : 100% 100%;
+  background-repeat: no-repeat;
+  overflow         : hidden;
+
+
+  .role {
+    margin-bottom: 35px;
+  }
+
+  .rightGameMenu {
+    height          : 100vh;
+    width           : 100%;
+    background-color: #141414;
+    padding         : 20px;
+
+  }
+
+  .gameStatusSection {
+    height: 16%;
+  }
+
+  .InfosGame {
+    text-align: center;
+    width     : 100%;
+
+    .red {
+      color: @red;
+    }
+
+    .ruleTitle {
+      text-align: center;
+      width     : 100%;
+
+    }
+
+    .crimeElement {
+      width      : 100%;
+      font-weight: 500;
+      font-size  : 17px;
+      color      : @red;
+    }
+  }
+
+
+  .AskCrimeElement {
+    position        : absolute;
+    top             : 25px;
+    left            : calc(50% - 150px);
+    width           : 300px;
+    height          : 50px;
+    background-color: #141414;
+    box-shadow      : 0 3px 6px -4px rgba(0, 0, 0, 0.48), 0 6px 16px 0 rgba(0, 0, 0, 0.32), 0 9px 28px 8px rgba(0, 0, 0, 0.2);
+    padding         : 5px;
+    border-radius   : 5px;
+    text-align      : center;
+    cursor          : pointer;
+    z-index         : 22222;
+
+    .input {
+      width      : 270px;
+      margin-left: 4px;
+      margin-top : 4px;
+      text-align : center;
+    }
+  }
+
+}
+
+@media screen {
+  @media (max-width: 1200px) {
+    .ant-message-notice {
+      width: 60%;
+    }
+  }
+
+  @media (max-width: 1023px) {
+    .ant-message-notice {
+      width: 50%;
+    }
+  }
+
+  @media (max-width: 992px) {
+    .ant-message-notice {
+      width: 60%;
+    }
+  }
+
+  @media (max-width: 575px) {
+    .ant-message-notice {
+      width      : 30%;
+      margin-left: 3%;
+    }
+  }
+}

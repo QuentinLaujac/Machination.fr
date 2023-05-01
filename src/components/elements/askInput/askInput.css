@@ -1,0 +1,25 @@
+.askInput {
+  width: 100%;
+}
+.askInput .ant-btn .anticon {
+  transform: translate(0%, 0%);
+  transform-origin: 100% 0%;
+}
+.askInput .ant-btn-primary {
+  color: #eaeaea;
+  background-color: #727272;
+  border-color: #727272;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.045);
+}
+.askInput:hover .sendButton {
+  color: #eaeaea;
+  background-color: #4fc18a;
+  border-color: #4fc18a;
+}
+.askInput:hover .sendButton.disabled {
+  color: #eaeaea;
+  background-color: #727272;
+  border-color: #727272;
+}
+/*# sourceMappingURL=askInput.css.map */

@@ -1,0 +1,101 @@
+.actionModal {
+  width: 75%;
+  z-index: 11111!important;
+}
+.actionModal .titleQuestion .sender {
+  font-weight: 400;
+  color: #727272;
+}
+.actionModal .titleQuestion .question {
+  font-weight: 500;
+  color: #eaeaea;
+}
+.actionModal .showCrimeElement {
+  width: 100%;
+  text-align: center;
+}
+.actionModal .showCrimeElement span {
+  color: rgba(218, 85, 79, 0.7);
+  font-size: 18px;
+  font-weight: 500;
+}
+.actionModal .roleResult {
+  text-align: center;
+  width: 100%;
+}
+.actionModal .roleResult .roleDiv {
+  width: 100%;
+  text-align: center;
+}
+.actionModal .ant-btn .anticon {
+  transform: translate(0%, 0%);
+  transform-origin: 100% 0%;
+}
+.actionModal .ant-btn-primary {
+  color: #eaeaea;
+  background-color: #727272;
+  border-color: #727272;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.045);
+}
+.actionModal .rolePropositionRowSend {
+  text-align: right;
+  justify-content: right;
+  width: 100%;
+}
+.actionModal .dividerRoleProposition {
+  margin: 0;
+  margin-top: 35px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+.actionModal .sendRolePropositionButton {
+  border-color: #4fc18a;
+  background-color: #4fc18a;
+}
+.actionModal .button {
+  width: auto;
+  margin: 5px;
+}
+.actionModal .button:hover {
+  color: #eaeaea;
+  background-color: #dcaa46;
+  border-color: #dcaa46;
+}
+.actionModal .yesyes {
+  border-color: #4fc18a;
+  background-color: #4fc18a;
+}
+.actionModal .yes {
+  border-color: #4fc18a;
+  background-color: #4fc18a;
+}
+.actionModal .nono {
+  border-color: rgba(218, 85, 79, 0.7);
+  background-color: rgba(218, 85, 79, 0.7);
+}
+.actionModal .no {
+  border-color: rgba(218, 85, 79, 0.7);
+  background-color: rgba(218, 85, 79, 0.7);
+}
+.actionModal .row {
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+}
+@media screen and (max-width: 1200px) {
+  .actionModal {
+    width: 60%;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .actionModal {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 992px) {
+  .actionModal {
+    width: 30%;
+  }
+}
+/*# sourceMappingURL=actionModal.css.map */

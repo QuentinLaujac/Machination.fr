@@ -1,0 +1,90 @@
+.msg-wrapper {
+  white-space: pre-wrap;
+}
+.ant-popover {
+  z-index: 99999999;
+}
+.Role {
+  width: 100%;
+}
+.Role .avatar {
+  border-radius: 10%;
+  width: 100%;
+  cursor: pointer;
+  filter: grayscale(100%);
+}
+.Role .containerAvatar {
+  width: 80%;
+  position: relative;
+}
+.Role .avatar.selected {
+  filter: none;
+}
+.Role .avatar.premium {
+  filter: blur(2px) grayscale(100%);
+}
+.Role .avatar.undefined {
+  filter: blur(2px) grayscale(100%);
+}
+.Role .disabled,
+.Role .premium.disabled,
+.Role .selected.disabled {
+  cursor: not-allowed;
+}
+.Role .ant-switch {
+  background-color: rgba(218, 85, 79, 0.7);
+}
+.Role .ant-switch.ant-switch-checked {
+  background-color: #4fc18a;
+}
+.Role .badgeInfo {
+  width: 16px;
+  height: 16px;
+  border-radius: 999px;
+  background-color: #dcaa46;
+  color: #141414;
+  position: absolute;
+  top: 0px;
+  right: -18px;
+  transform: translate(-50%, -50%);
+  transform-origin: 100% 0%;
+  z-index: 1;
+}
+.Role .badgeInfo .icon {
+  font-size: 10px;
+  position: absolute;
+  top: 19%;
+  left: 18%;
+}
+.Role .badgePremium {
+  width: 16px;
+  height: 16px;
+  border-radius: 999px;
+  background-color: #eaeaea;
+  color: #141414;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  transform: translate(-50%, -50%);
+  transform-origin: 100% 0%;
+  z-index: 1;
+}
+.Role .badgePremium .icon {
+  font-size: 10px;
+  position: absolute;
+  top: 19%;
+  left: 18%;
+}
+.Role .checkboxStatus {
+  position: absolute;
+  bottom: 0px;
+  right: 0;
+  transform: translate(50%, 50%);
+  transform-origin: 100% 0%;
+  z-index: 1;
+}
+.Role .ant-checkbox-checked .ant-checkbox-inner {
+  background-color: #4fc18a;
+  border-color: #4fc18a;
+}
+/*# sourceMappingURL=role.css.map */

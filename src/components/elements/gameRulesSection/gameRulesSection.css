@@ -1,0 +1,15 @@
+.gameRulesSection {
+  width: 100%;
+  height: calc(100vh - 150px);
+  text-align: center;
+}
+.gameRulesSection .rulesRow {
+  width: 100%;
+}
+.gameRulesSection .rulesRow.composition {
+  margin-top: 40px;
+}
+.gameRulesSection .ruleTitle {
+  margin-bottom: 50px;
+}
+/*# sourceMappingURL=gameRulesSection.css.map */

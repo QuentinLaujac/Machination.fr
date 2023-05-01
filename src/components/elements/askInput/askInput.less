@@ -1,0 +1,33 @@
+@import './../../../assets/less/colors.less';
+
+.askInput {
+    width: 100%;
+
+    .ant-btn .anticon {
+        transform       : translate(0%, 0%);
+        transform-origin: 100% 0%;
+    }
+
+    .ant-btn-primary {
+        color           : @white;
+        background-color: @grey;
+        border-color    : @grey;
+        text-shadow     : 0 -1px 0 rgba(0, 0, 0, 0.12);
+        box-shadow      : 0 2px 0 rgba(0, 0, 0, 0.045);
+
+    }
+
+    &:hover {
+        .sendButton {
+            color           : @white;
+            background-color: @green;
+            border-color    : @green;
+        }
+
+        .sendButton.disabled {
+            color           : @white;
+            background-color: @grey;
+            border-color    : @grey;
+        }
+    }
+}

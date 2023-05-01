@@ -1,0 +1,155 @@
+@import './personalizedAntd.less';
+@import './colors.less';
+
+
+body{
+  height: 100%;
+  overflow: hidden;
+}
+
+#app{
+  overflow: hidden;
+}
+
+.header{
+  .mainRow{
+    height: 100%;
+    align-items: baseline;
+  }
+}
+
+//BUTTON
+.loginButton{
+  width: 100%;
+}
+
+.playButton{
+  width: 100%;
+  color: @red;
+}
+
+.createGameButton{
+  width: 100%;
+  color: @white;
+  background-color: @red;
+  border: none;
+}
+
+.linkButton{
+  color: #eaeaea;
+  text-decoration: none;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  transition: color 0.3s;
+  border: none;
+  padding:0px;
+}
+
+.mainTitle{
+  color:@red!important;
+}
+
+.gameList {
+  width: 100%;
+
+  &:hover{
+    cursor: pointer;
+  }
+
+  .roleTag{
+    background-color: @yellow;
+    margin-top: 5px;
+  }
+
+  .gameAvatar{
+    margin-left: 10px;
+    background-color: @green;
+  }
+
+  .gameItem {
+    background-color: @grey;
+    border-radius: 45px;
+    margin-bottom: 10px;
+    border-bottom: none!important;
+
+  }
+
+  .playerNumber{
+    margin-right: 20px;
+  }
+}
+
+
+.lobbyBackground {
+  background-image: url("../img/background/landscape.png");
+  height:  calc(~"100vh - "@layout-header-height);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.avatarPreviewBox{
+  height: calc(~"100vh - "@layout-header-height);
+  text-align: center;
+
+  .character {
+    position: absolute;
+    bottom: 0;
+    height: 80vh;
+  }
+}
+
+
+
+.light-button {
+  background-color: @grey;
+  border-color: @grey;
+}
+
+
+//FOG
+.fog {
+  position: relative;
+
+  height: calc(~"100vh - "@layout-header-height);
+  width: 100%;
+
+  background-color: #000;
+
+  &__container {
+    position: absolute;
+
+    height: 100%;
+    width: 100%;
+
+    overflow: hidden;
+  }
+
+  &__img {
+    position: absolute;
+
+    height: calc(~"100vh - "@layout-header-height);
+    width: 300vw;
+
+    &--first {
+      background: url('../img/fog/fog-1.png') repeat-x;
+      background-size: contain;
+      background-position: center;
+      animation: marquee 60s linear infinite;
+    }
+
+    &--second {
+      background: url('../img/fog/fog-2.png') repeat-x;
+      background-size: contain;
+      background-position: center;
+      animation: marquee 40s linear infinite;
+    }
+  }
+}
+
+// Marquee
+@keyframes marquee {
+  0% { transform: translate3d(0, 0, 0); }
+  100% { transform: translate3d(-200vw, 0, 0); }
+}
+//

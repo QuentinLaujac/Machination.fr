@@ -1,0 +1,86 @@
+{
+    "GUILTY": {
+        "title": "Le coupable",
+        "p": [
+            "Son but est de se faire passer pour un innocent et d'empêcher les autres joueurs de trouver l'élément du crime."
+        ]
+    },
+    "INSPECTOR": {
+        "title": "L'inspecteur",
+        "p": [
+            "Son but est de trouver l'élément du crime et de trouver le rôle de tous les joueurs, dont le coupable."
+        ]
+    },
+    "WITNESS": {
+        "title": "Le témoin",
+        "p": [
+            "Son but est d'aider les joueurs à trouver les éléments du crime en répondant à leurs questions et à identifier le coupable."
+        ]
+    },
+    "WIDOW": {
+        "title": "La veuve",
+        "p": [
+            "Son but est de trouver l'élément du crime et d'identifier le coupable.",
+            "Durant la partie, elle a la possibilité de mettre une option sur un joueur.\nA la fin de la manche, si le joueur est le coupable, elle gagne des points, dans le cas contraire, elle en perd."
+        ]
+    },
+    "PARTNER": {
+        "title": "Le complice",
+        "p": [
+            "Son but est de faire en sorte que le coupable ne soit pas démasqué et que les autres joueurs ne trouvent pas l'élément du crime."
+        ]
+    },
+    "ALIBI": {
+        "title": "L'alibi",
+        "p": [
+            "Son but est de trouver l'élément du crime et de se faire élire coupable à la place du coupable."
+        ]
+    },
+    "INFORMANT": {
+        "title": "L'indic illettré",
+        "p": [
+            "Son but est de trouver l'élément du crime et d'identifier le coupable.",
+            "Il bénéficie d'un indice en début de partie sur l'élément du crime. \nCependant, il voit toutes les questions des autres joueurs écrites à l'envers."
+        ]
+    },
+    "JOURNALIST": {
+        "title": "La journaliste",
+        "p": [
+            "Son but est de trouver l'élément du crime et d'identifier le coupable.\nElle doit également placer un nouveau mot qu'elle reçoit dans chacune des questions qu'elle pose au témoin sans se faire démasquer par l'inspecteur."
+        ]
+    },
+    "SERGENT": {
+        "title": "Le sergent",
+        "p": [
+            "Son but est de trouver l'élément du crime, l'identité du coupable et son complice."
+        ]
+    },
+    "DETECTIVE": {
+        "title": "Le détective privé",
+        "p": [
+            "Son but est de trouver l'élément du crime et d'identifier le coupable.",
+            "Il peut poser une question au témoin sans que les autres ne voient la réponse. \nSi la réponse à la question est non, il perd des points."
+        ]
+    },
+    "CENSORSHIP": {
+        "title": "La censure",
+        "p": [
+            "Son but est de trouver l'élément du crime.",
+            "Il peut empêcher un joueur de proposer l'élément du crime pendant un moment. \nDurant ce temps, s'il trouve l'élément du crime, il gagne des points en plus, si quelqu'un d'autre le trouve à sa place, il perd des points."
+        ]
+    },
+    "BOOKMAKER": {
+        "title": "Le bookmaker",
+        "p": [
+            "Son but est de trouver l'élément du crime et d'identifier le coupable.",
+            "Il désigne deux personnes en début de partie et reçoit un mot. \nQuand il dira ce mot, l'un des deux joueurs désignés devra dire “BANG”. \nLe premier à le dire vole un point au second. Si le bookmaker ne dit pas le mot, il perd des points."
+        ]
+    },
+    "MAFIA": {
+        "title": "Le mafieux",
+        "p": [
+            "Son but est de trouver l'élément du crime et d'identifier le coupable.",
+            "Il peut échanger des points contre un indice significatif."
+        ]
+    }
+}

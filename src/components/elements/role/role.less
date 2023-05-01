@@ -1,0 +1,110 @@
+@import './../../../assets/less/colors.less';
+
+.msg-wrapper {
+    white-space: pre-wrap;
+}
+
+.ant-popover{
+    z-index: 99999999;
+}
+
+.Role {
+    width        : 100%;
+
+    .avatar {
+        border-radius: 10%;
+        width        : 100%;
+        cursor       : pointer;
+        filter       : grayscale(100%);
+    }
+
+    .containerAvatar {
+        width   : 80%;
+        position: relative;
+    }
+
+    .avatar.selected {
+        filter: none;
+    }
+
+    .avatar.premium {
+        filter: blur(2px) grayscale(100%);
+    }
+
+    .avatar.undefined {
+        filter: blur(2px) grayscale(100%);
+    }
+
+    .disabled,
+    .premium.disabled,
+    .selected.disabled {
+        cursor: not-allowed;
+    }
+
+    .ant-switch {
+        background-color: @red;
+    }
+
+    .ant-switch.ant-switch-checked {
+        background-color: @green;
+    }
+
+    .badgeInfo {
+        width           : 16px;
+        height          : 16px;
+        border-radius   : 999px;
+        background-color: @yellow;
+        color           : #141414;
+        position        : absolute;
+        top             : 0px;
+        right           : -18px;
+        transform       : translate(-50%, -50%);
+        transform-origin: 100% 0%;
+        z-index         : 1;
+
+        .icon {
+            font-size: 10px;
+            position : absolute;
+            top      : 19%;
+            left     : 18%;
+        }
+    }
+
+    .badgePremium {
+        width           : 16px;
+        height          : 16px;
+        border-radius   : 999px;
+        background-color: @white;
+        color           : #141414;
+        position        : absolute;
+        top             : 0px;
+        right           : 0px;
+        transform       : translate(-50%, -50%);
+        transform-origin: 100% 0%;
+        z-index         : 1;
+
+        .icon {
+            font-size: 10px;
+            position : absolute;
+            top      : 19%;
+            left     : 18%;
+        }
+    }
+
+    .checkboxStatus {
+        position        : absolute;
+        bottom          : 0px;
+        right           : 0;
+        transform       : translate(50%, 50%);
+        transform-origin: 100% 0%;
+        z-index         : 1;
+    }
+
+
+
+    .ant-checkbox-checked .ant-checkbox-inner {
+        background-color: @green;
+        border-color    : @green;
+    }
+
+}

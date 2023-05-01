@@ -1,0 +1,86 @@
+.ant-message-notice {
+  width: 75%;
+  top: 10%;
+  z-index: 99999;
+}
+.ant-message-notice:first-child {
+  margin-top: 60px;
+}
+.gamePage {
+  background-color: #191919;
+  height: 100vh;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+.gamePage .role {
+  margin-bottom: 35px;
+}
+.gamePage .rightGameMenu {
+  height: 100vh;
+  width: 100%;
+  background-color: #141414;
+  padding: 20px;
+}
+.gamePage .gameStatusSection {
+  height: 16%;
+}
+.gamePage .InfosGame {
+  text-align: center;
+  width: 100%;
+}
+.gamePage .InfosGame .red {
+  color: rgba(218, 85, 79, 0.7);
+}
+.gamePage .InfosGame .ruleTitle {
+  text-align: center;
+  width: 100%;
+}
+.gamePage .InfosGame .crimeElement {
+  width: 100%;
+  font-weight: 500;
+  font-size: 17px;
+  color: rgba(218, 85, 79, 0.7);
+}
+.gamePage .AskCrimeElement {
+  position: absolute;
+  top: 25px;
+  left: calc(50% - 150px);
+  width: 300px;
+  height: 50px;
+  background-color: #141414;
+  box-shadow: 0 3px 6px -4px rgba(0, 0, 0, 0.48), 0 6px 16px 0 rgba(0, 0, 0, 0.32), 0 9px 28px 8px rgba(0, 0, 0, 0.2);
+  padding: 5px;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+  z-index: 22222;
+}
+.gamePage .AskCrimeElement .input {
+  width: 270px;
+  margin-left: 4px;
+  margin-top: 4px;
+  text-align: center;
+}
+@media screen and (max-width: 1200px) {
+  .ant-message-notice {
+    width: 60%;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .ant-message-notice {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 992px) {
+  .ant-message-notice {
+    width: 60%;
+  }
+}
+@media screen and (max-width: 575px) {
+  .ant-message-notice {
+    width: 30%;
+    margin-left: 3%;
+  }
+}
+/*# sourceMappingURL=GamePage.css.map */

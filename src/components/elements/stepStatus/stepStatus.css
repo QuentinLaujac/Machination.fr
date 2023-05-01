@@ -1,0 +1,28 @@
+.stepStatus {
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  width: auto;
+  height: 50px;
+  background-color: #141414;
+  padding: 5px;
+  border-radius: 40px;
+  box-shadow: 0 3px 6px -4px rgba(0, 0, 0, 0.48), 0 6px 16px 0 rgba(0, 0, 0, 0.32), 0 9px 28px 8px rgba(0, 0, 0, 0.2);
+}
+.stepStatus .rowStatus {
+  margin-right: 20px;
+}
+.stepStatus .title {
+  font-size: 15px;
+  margin-left: 10px;
+  font-weight: 500;
+  color: rgba(234, 234, 234, 0.85);
+}
+.stepStatus .ant-progress-text {
+  font-weight: 500;
+  font-size: 15px;
+}
+.stepStatus .ant-progress-circle.ant-progress-status-success .ant-progress-text {
+  color: #4fc18a;
+}
+/*# sourceMappingURL=stepStatus.css.map */
